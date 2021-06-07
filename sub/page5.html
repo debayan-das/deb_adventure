@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<title> sign-in_page </title>
+	</head>
+	<body background="https://www.sagatraining.ca/wp-content/uploads/2018/10/background-images-for-login-form-8.jpg">
+		
+		<font color="white">
+		<fieldset>
+            <legend align="top">FILL IN THE BOXES</legend><br>
+            <form action=user_data.html method=post>
+            
+                <label for="vid1">First name</label>
+                <input type="text" name="vname1" id="vid1" placeholder="first name"><br><br>
+    
+                <label for="vid2">Last name</label>
+                <input type="text" name="vname2" id="vid2" placeholder="last name"><br><br>
+    
+                <label for="email">Email-id</label>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com"><br><br>
+
+                <label for="num">Contact number</label>
+                <input type="number" name="num" id="num" placeholder="1234567890"><br><br>
+                
+                <label for="pass">Password :</label>
+                <input type="password"name="pass" id="pass"><br><br>
+    
+                <label for="Month">Date of birth</label><br><br>
+                <input type="number" placeholder=Year size=3 minlength=4 maxlength=4 value=2000>
+                <select name="Month">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jun">June</option>
+                    <option value="jul">July</option>
+                    <option value="aug">August</option>
+                    <option value="sep">September</option>
+                    <option value="oct">October</option>
+                    <option value="nov">November</option>
+                    <option value="dec">December</option>
+                </select>
+                
+                <select name="Date">
+                    <option value="0" selected disabled>Date</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select><br><br>    
+                Select Gender :<br>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female"><br><br>
+                
+                State<br>
+				<select name="state_name" id="state" multiple="true" size=10>
+					<optgroup label="East">
+						<option>West Bengal
+						<option>Sikkim
+						<option>Kashmir
+						<option>Odisha
+					</optgroup>
+					<optgroup label="North">
+						<option>Delhi
+						<option>Uttar Pradesh
+						<option>Kashmir
+					</optgroup>
+					<optgroup label="West">
+						<option>Maharashtra
+						<option>Goa
+						<option>Gujrat
+						<option>Rajasthan
+					</optgroup>
+				</select>
+                <br><br>
+                
+                <fieldset>
+		            <legend>Interested in</legend><br>
+		            <input type="checkbox" name="Interest" id="d1" value="Student">
+					<label for="d1">Games</label>
+					<input type="checkbox" name="Interest" id="d2" value="Employee">
+					<label for="d2">Music</label>
+					<input type="checkbox" name="Interest" id="d3" value="Retired">
+					<label for="d3">Photography</label>
+				</fieldset>
+				<br><br>
+				
+                Upload your photo
+                <input type="file" name="file_name">
+				<br><br>
+                
+				<input type="RESET">
+                <input type="submit" id="sb" value="SUBMIT">
+
+            </form>
+            
+        </fieldset>
+        </font>
+        <br><br><br><br>
+		
+	</body>
+</html>

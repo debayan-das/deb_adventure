@@ -1,0 +1,16 @@
+h1{color:white;
+	background-color:green;
+	font-size:43;
+	text-align:center;
+}
+
+h2{color:blue;
+	font-size:25;
+	text-decoration:underline;
+}
+
+h3{color:black;
+	background-color:gray;
+	font-size:22;
+	text-align:left;
+}
