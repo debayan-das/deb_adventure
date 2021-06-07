@@ -1,5 +1,6 @@
 <?php
 
-include_once("week_day_flask.py");
+include_once("trap2.html");
+include_once("home.html");
 
 ?>
